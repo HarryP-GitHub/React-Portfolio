@@ -12,20 +12,20 @@ function Header() {
 
   return (
     <header>
-      <h1>Harry Potter React Portfolio</h1>
+      <h1>Harry Potter's React Portfolio</h1>
       <nav>
-        <Link className={activePath === '/' ? 'active' : ''} to="/">
+        <Link className={activePath === '/' || activePath === '/about' ? 'active' : ''} to="/about">
           About Me
-        </Link>,
+        </Link>
         <Link className={activePath === '/portfolio' ? 'active' : ''} to="/portfolio">
           Portfolio
-        </Link>,
+        </Link>
         <Link className={activePath === '/contact' ? 'active' : ''} to="/contact">
           Contact
-        </Link>,
+        </Link>
         <Link className={activePath === '/resume' ? 'active' : ''} to="/resume">
           Resume
-        </Link>,
+        </Link>
       </nav>
     </header>
   );

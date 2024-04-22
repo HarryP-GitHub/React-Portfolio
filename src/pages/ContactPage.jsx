@@ -2,6 +2,7 @@ function ContactPage() {
   return (
     <div>
       <h2>Contact</h2>
+      <div className='contact-form'>
       <form>
         <label htmlFor='name'>Name:</label>
         <input type='text' id='name' required />
@@ -11,6 +12,7 @@ function ContactPage() {
         <textarea id='message' required></textarea>
         <button type='submit'>Submit</button>
       </form>
+      </div>
     </div>
   );
 }

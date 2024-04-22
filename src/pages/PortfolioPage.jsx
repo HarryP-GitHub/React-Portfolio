@@ -52,16 +52,18 @@ function PortfolioPage() {
   ];
   return (
     <div>
-      <h2>Portfolio</h2> 
+    <h2>Portfolio</h2> 
+    <div className='project-grid'>
       {projects.map(project => (
-        <div key={projects.id}>
+        <div key={projects.id} className='project-card'>
           <h3>{project.title}</h3>
-          <img src={project.imageUrl} alt={project.title} />
+          <img src={project.imageUrl} alt={project.title} className='project-image' />
           <p>{project.description}</p>
-          <a href={project.projectUrl}>View Project</a>
-          <a href={project.repoUrl}>View Repository</a>
+          <a href={project.projectUrl} className='project-link'>View Project</a>
+          <a href={project.repoUrl} className='project-link'>View Repository</a>
         </div>
-      ))};
+      ))}
+    </div>
     </div>
   );
 }
