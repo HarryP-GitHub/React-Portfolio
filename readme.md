@@ -43,8 +43,8 @@ N/A
 
 ## Deployed Application
 
-[Link to Deployed React Portfolio]()
+[Link to Deployed React Portfolio](https://friendly-sunshine-00b759.netlify.app/)
 
 ## Screenshot of Text Editor
 
-![Screenshot](/public/images/)
+![Screenshot](/public/images/deployedscreenshot.png)
