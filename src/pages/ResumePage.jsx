@@ -3,7 +3,7 @@ function ResumePage() {
   return (
     <div>
       <h2>Resume</h2>
-      <a href="/" download>Download Resume Here</a>
+      <a href="/resume/HarryPotterResume.pdf" download>Download Resume Here</a>
       <p>List of Proficiencies</p>
       <ul>
         <li>Node JS</li>
